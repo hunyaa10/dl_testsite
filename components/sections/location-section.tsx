@@ -20,10 +20,15 @@ export default function LocationSection() {
   return (
     <section id="location" className="py-20 bg-gray-50">
       <div className="container mx-auto px-4">
+        {/* 섹션 제목 */}
+        <div className="text-center mb-16">
+          <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-6">오시는 길</h2>
+        </div>
+
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12">
           {/* 구글맵 */}
-          <div className="relative">
-            <div className="rounded-2xl overflow-hidden shadow-lg h-96 bg-gray-400 flex items-center justify-center">
+          <div className="relative h-full flex">
+            <div className="rounded-2xl overflow-hidden shadow-lg w-full bg-gray-400 flex items-center justify-center">
               <span className="text-white text-xl font-semibold">구글맵연결</span>
             </div>
           </div>

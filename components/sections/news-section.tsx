@@ -36,7 +36,7 @@ export default function NewsSection() {
                     {item.date}
                   </div>
                   <h3
-                    className={`text-lg font-bold text-gray-900 mb-3 line-clamp-2 group-hover:${brandColors.text.primary} transition-colors`}
+                    className="text-lg font-bold text-gray-900 mb-3 line-clamp-2"
                   >
                     {item.title}
                   </h3>

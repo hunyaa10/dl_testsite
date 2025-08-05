@@ -10,6 +10,22 @@ const config: Config = {
     "./app/**/*.{js,ts,jsx,tsx,mdx}",
     "*.{js,ts,jsx,tsx,mdx}"
   ],
+  safelist: [
+    'bg-red-50',
+    'bg-red-100',
+    'bg-red-500',
+    'bg-red-600',
+    'bg-red-600/60',
+    'bg-red-700',
+    'text-red-600',
+    'text-red-700',
+    'hover:bg-red-700',
+    'hover:text-red-700',
+    'border-red-500',
+    'border-red-600',
+    'focus:ring-red-500',
+    'focus:border-red-500'
+  ],
   theme: {
   	extend: {
   		colors: {

@@ -45,7 +45,7 @@ export const contactData = {
       },
       email: {
         label: "이메일",
-        placeholder: "연락 가능한 이메일을 입력해���세요",
+        placeholder: "연락 가능한 이메일을 입력해주세요",
         required: true,
       },
       message: {

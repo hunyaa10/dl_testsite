@@ -56,7 +56,7 @@ export default function Header() {
 
   return (
     <header
-      className={`text-white shadow-lg fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${brandColors.primary[600]}/60 backdrop-blur-sm`}
+      className={`text-white shadow-lg fixed top-0 left-0 right-0 z-50 transition-all duration-300 bg-red-600/60 backdrop-blur-sm`}
     >
       <div className="container mx-auto px-4">
         <div className="flex items-center justify-between h-16">
@@ -97,7 +97,7 @@ export default function Header() {
                 onClick={() => scrollToSection("location")}
                 className={`${brandColors.hover.text} transition-colors`}
               >
-                본사위치
+                오시는 길
               </button>
             </nav>
           )}

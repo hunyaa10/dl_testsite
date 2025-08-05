@@ -1,30 +1,49 @@
-# brand_intro
+# REDCOLA 웹사이트
 
-*Automatically synced with your [v0.dev](https://v0.dev) deployments*
+레드콜라 브랜드 소개 웹사이트입니다.
 
-[![Deployed on Vercel](https://img.shields.io/badge/Deployed%20on-Vercel-black?style=for-the-badge&logo=vercel)](https://vercel.com/hunyaas-projects/v0-site-guide-02-3j)
-[![Built with v0](https://img.shields.io/badge/Built%20with-v0.dev-black?style=for-the-badge)](https://v0.dev/chat/projects/ylgGIJSQPrE)
+## 시작하기
 
-## Overview
+이 프로젝트를 로컬 환경에서 실행하기 위한 단계들입니다.
 
-This repository will stay in sync with your deployed chats on [v0.dev](https://v0.dev).
-Any changes you make to your deployed app will be automatically pushed to this repository from [v0.dev](https://v0.dev).
+### 사전 요구사항
 
-## Deployment
+- Node.js 18.0.0 이상
+- npm 또는 yarn
 
-Your project is live at:
+### 설치 방법
 
-**[https://vercel.com/hunyaas-projects/v0-site-guide-02-3j](https://vercel.com/hunyaas-projects/v0-site-guide-02-3j)**
+1. 저장소 클론
+```bash
+git clone https://github.com/hunyaa10/redcola.git
+cd redcola/red-app
+```
 
-## Build your app
+2. 의존성 설치
+```bash
+npm install
+# 또는
+yarn install
+```
 
-Continue building your app on:
+3. 개발 서버 실행
+```bash
+npm run dev
+# 또는
+yarn dev
+```
 
-**[https://v0.dev/chat/projects/ylgGIJSQPrE](https://v0.dev/chat/projects/ylgGIJSQPrE)**
+이제 브라우저에서 [http://localhost:3000](http://localhost:3000)으로 접속하여 웹사이트를 확인할 수 있습니다.
 
-## How It Works
+## 기술 스택
 
-1. Create and modify your project using [v0.dev](https://v0.dev)
-2. Deploy your chats from the v0 interface
-3. Changes are automatically pushed to this repository
-4. Vercel deploys the latest version from this repository
+- Next.js 14
+- TypeScript
+- Tailwind CSS
+- Framer Motion
+- Radix UI
+
+## 배포
+
+이 프로젝트는 Vercel에 자동 배포됩니다:
+[https://vercel.com/hunyaas-projects/v0-site-guide-02-3j](https://vercel.com/hunyaas-projects/v0-site-guide-02-3j)
