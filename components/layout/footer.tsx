@@ -20,7 +20,7 @@ export default function Footer() {
     <footer className="bg-white text-gray-900 border-t border-gray-200">
       {/* 포트폴리오 안내 문구 */}
       <div className="bg-gray-100 py-4 border-b border-gray-200">
-        <div className="container mx-auto px-4">
+        <div className="w-full px-4 sm:px-6 md:px-8 lg:px-12 xl:px-16">
           <p className="text-center text-sm text-gray-600">
             ※ 이 사이트는 포트폴리오 용도로 제작된 가상의 예시입니다. 실제 제품, 브랜드, 회사와는 무관합니다.
           </p>
@@ -29,7 +29,7 @@ export default function Footer() {
 
       {/* 기존 푸터 내용 */}
       <div className="py-12">
-        <div className="container mx-auto px-4">
+        <div className="w-full px-4 sm:px-6 md:px-8 lg:px-12 xl:px-16">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12">
             {/* 왼쪽 영역 - 회사 정보 */}
             <div>
