@@ -13,6 +13,7 @@ export const brandColors = {
   text: {
     primary: "text-red-600",
     hover: "text-red-700",
+    light: "text-red-400",
   },
 
   // Border Colors (테두리 색상)
