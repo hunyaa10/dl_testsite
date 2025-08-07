@@ -37,13 +37,7 @@ yarn dev
 
 ## 기술 스택
 
-- Next.js 14
+- Next.js
 - TypeScript
 - Tailwind CSS
 - Framer Motion
-- Radix UI
-
-## 배포
-
-이 프로젝트는 Vercel에 자동 배포됩니다:
-[https://vercel.com/hunyaas-projects/v0-site-guide-02-3j](https://vercel.com/hunyaas-projects/v0-site-guide-02-3j)
