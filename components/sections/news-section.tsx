@@ -3,7 +3,6 @@ import Image from "next/image"
 import { Card, CardContent } from "@/components/ui/card"
 import { Calendar, ExternalLink } from "lucide-react"
 import { newsData } from "@/data/news-data"
-import { brandColors } from "@/styles/colors"
 
 export default function NewsSection() {
   return (
@@ -16,11 +15,11 @@ export default function NewsSection() {
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 mb-12">
           {newsData.items.map((item) => (
-            <Link key={item.id} href={item.link} target="_blank" rel="noopener noreferrer" className="group block">
+            <Link key={item.id} href="/test-news" className="group block">
               <Card className="group-hover:shadow-xl transition-all duration-300 cursor-pointer h-full">
                 <div className="relative overflow-hidden">
                   <Image
-                    src={item.image || "/placeholder.svg"}
+                    src={item.image}
                     alt={item.title}
                     width={300}
                     height={200}

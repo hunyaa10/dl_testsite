@@ -29,7 +29,7 @@ export default function SloganSection() {
             />
             <div className="absolute inset-0 bg-black/40 group-hover:bg-black/50 transition-colors duration-300" />
             <div className="absolute inset-0 p-8 flex flex-col justify-center text-white">
-              <h3 className="text-4xl md:text-5xl font-bold mb-4 leading-tight">{slides[0].subtitle}</h3>
+              <h3 className="text-4xl md:text-5xl font-bold mb-4 leading-tight">{slides[0].title}</h3>
               <p className="text-lg md:text-xl leading-relaxed max-w-md">{slides[0].description}</p>
             </div>
           </div>
@@ -46,7 +46,7 @@ export default function SloganSection() {
                 />
                 <div className="absolute inset-0 bg-black/40 group-hover:bg-black/50 transition-colors duration-300" />
                 <div className="absolute inset-0 p-6 flex flex-col justify-center text-white">
-                  <h4 className="text-xl md:text-2xl font-bold mb-3 leading-tight">{slide.subtitle}</h4>
+                  <h4 className="text-xl md:text-2xl font-bold mb-3 leading-tight">{slide.title}</h4>
                   <p className="text-sm md:text-base opacity-90 leading-relaxed">{slide.description}</p>
                 </div>
               </div>
