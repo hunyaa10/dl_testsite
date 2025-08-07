@@ -41,3 +41,7 @@ yarn dev
 - TypeScript
 - Tailwind CSS
 - Framer Motion
+
+## 배포
+- vercel 자동배포 연결
+https://redcola.vercel.app/
