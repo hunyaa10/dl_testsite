@@ -4,7 +4,6 @@ import { useState, useEffect } from "react"
 import Link from "next/link"
 import { usePathname } from "next/navigation"
 import { Menu, X } from "lucide-react"
-import { brandColors } from "@/styles/colors"
 import MenuButton from "@/components/ui/menu-button"
 
 // 메뉴 데이터
@@ -57,12 +56,12 @@ export default function Header() {
   return (
     <header
       className={`text-white shadow-lg fixed top-0 left-0 right-0 z-50 transition-all duration-300 backdrop-blur-sm
-        ${isScrolled ? 'bg-gray-800/50' : 'bg-transparent'}`}
+        ${isScrolled ? 'bg-gray-800/30' : 'bg-transparent'}`}
     >
       <div className="w-full px-4 sm:px-6 md:px-8 lg:px-12 xl:px-16">
         <div className="flex items-center justify-between h-16">
           <Link href="/" className="flex items-center space-x-2">
-            <span className={`text-2xl font-bold tracking-wide ${brandColors.hover.text} transition-colors`}>
+            <span className={`text-2xl font-bold tracking-wide transition-colors`}>
               REDCOLA
             </span>
           </Link>

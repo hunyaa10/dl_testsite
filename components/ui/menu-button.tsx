@@ -1,4 +1,3 @@
-import { brandColors } from "@/styles/colors"
 
 interface MenuButtonProps {
   onClick: () => void
@@ -9,7 +8,7 @@ export default function MenuButton({ onClick, children }: MenuButtonProps) {
   return (
     <button
       onClick={onClick}
-      className={`text-white hover:${brandColors.text.light} transition-all duration-300 h-full px-6 flex items-center justify-center`}
+      className="text-white transition-all duration-300 h-full px-6 flex items-center justify-center hover:-translate-y-0.5"
     >
       {children}
     </button>
