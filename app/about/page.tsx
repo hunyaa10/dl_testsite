@@ -19,7 +19,7 @@ export default function AboutPage() {
         <section className="py-20 bg-white">
           <div className="container mx-auto px-4">
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
-              <div className="relative">
+              <div className="relative order-2 lg:order-1">
                 <Image
                   src={companyInfo.history.image || "/placeholder.svg"}
                   alt="회사 연혁"
@@ -28,7 +28,7 @@ export default function AboutPage() {
                   className="rounded-2xl shadow-lg w-full h-[400px] object-cover"
                 />
               </div>
-              <div>
+              <div className="order-1 lg:order-2">
                 <h2 className="text-4xl font-bold text-gray-900 mb-6">{companyInfo.history.title}</h2>
                 <p className="text-lg text-gray-600 leading-relaxed">{companyInfo.history.content}</p>
               </div>
@@ -61,7 +61,7 @@ export default function AboutPage() {
         <section className="py-20 bg-white">
           <div className="container mx-auto px-4">
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
-              <div className="relative">
+              <div className="relative order-2 lg:order-1">
                 <Image
                   src={companyInfo.values.image || "/placeholder.svg"}
                   alt="핵심 가치"
@@ -70,7 +70,7 @@ export default function AboutPage() {
                   className="rounded-2xl shadow-lg w-full h-[400px] object-cover"
                 />
               </div>
-              <div>
+              <div className="order-1 lg:order-2">
                 <h2 className="text-4xl font-bold text-gray-900 mb-6">{companyInfo.values.title}</h2>
                 <p className="text-lg text-gray-600 leading-relaxed">{companyInfo.values.content}</p>
               </div>

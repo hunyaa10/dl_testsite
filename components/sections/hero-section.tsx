@@ -12,7 +12,7 @@ export default function HeroSection() {
   useEffect(() => {
     const interval = setInterval(() => {
       setCurrentIndex((prev) => (prev + 1) % slides.length)
-    }, 5000) // 5초마다 슬라이드 변경
+    }, 5000)
 
     return () => clearInterval(interval)
   }, [slides.length])

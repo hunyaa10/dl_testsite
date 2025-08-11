@@ -12,7 +12,7 @@ export default function Faq() {
   return (
     <>
       <SubBanner {...subBannerData.faq} />
-      <section className="py-20">
+      <section className="py-20 text-center">
         준비중
       </section>
     </>

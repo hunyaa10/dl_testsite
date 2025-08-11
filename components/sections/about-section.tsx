@@ -2,10 +2,10 @@
 
 import { useState, useEffect, useRef } from "react"
 import Link from "next/link"
-import { Button } from "@/components/ui/button"
 import { Card, CardContent } from "@/components/ui/card"
 import { aboutData } from "@/data/main/about-data"
 import { brandColors } from "@/styles/colors"
+import BrandButton from "@/components/ui/brand-button"
 
 export default function AboutSection() {
   const [isVisible, setIsVisible] = useState(false)
@@ -18,9 +18,8 @@ export default function AboutSection() {
         if (entry.isIntersecting && !isVisible) {
           setIsVisible(true)
 
-          // 애니메이션 시작 - easing 효과 적용
-          const targets = [200, 19, 135] // 1.9B는 19로 처리 후 나중에 10으로 나눔
-          const duration = 1000 // 1초 동안 애니메이션
+          const targets = [200, 19, 135]
+          const duration = 1000 
 
           targets.forEach((target, index) => {
             let startTime: number | null = null
@@ -31,7 +30,6 @@ export default function AboutSection() {
               const elapsed = currentTime - startTime
               const progress = Math.min(elapsed / duration, 1)
 
-              // easeOutCubic: 처음에는 빠르게, 나중에는 천천히
               const easedProgress = 1 - Math.pow(1 - progress, 3)
               const currentValue = Math.round(easedProgress * target)
 
@@ -96,12 +94,10 @@ export default function AboutSection() {
 
         <div className="text-center">
           <Link href="/about">
-            <Button
-              size="lg"
-              className={`${brandColors.primary[600]} ${brandColors.hover.primary} text-white px-8 py-4 hover:scale-105 transition-all duration-300`}
-            >
+            {/* 브랜드 버튼 컴포넌트 사용 */}
+            <BrandButton size="lg" className="px-8 py-4">
               {aboutData.buttonText}
-            </Button>
+            </BrandButton>
           </Link>
         </div>
       </div>
