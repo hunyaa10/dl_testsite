@@ -2,7 +2,9 @@
 
 import { useEffect } from "react"
 import Image from "next/image"
+import SubBanner from "@/components/ui/sub-banner"
 import { companyInfo } from "@/data/about/company-info"
+import { subBannerData } from "@/data/common/sub-banner-data"
 
 export default function AboutPage() {
   useEffect(() => {
@@ -11,28 +13,7 @@ export default function AboutPage() {
 
   return (
     <>
-      {/* 배너 섹션 */}
-      <section className="relative h-[50vh] pt-16 flex items-center justify-center overflow-hidden">
-        {/* 배너 배경 이미지 */}
-        <div className="absolute inset-0 z-0">
-          <Image
-            src={companyInfo.banner.backgroundImage}
-            alt="Company Banner"
-            fill
-            className="object-cover"
-            priority
-          />
-          <div className="absolute inset-0 bg-black/40" />
-        </div>
-
-        {/* 배너 텍스트 콘텐츠 */}
-        <div className="relative z-10 text-center text-white max-w-4xl mx-auto px-4">
-          <h1 className="text-4xl md:text-6xl font-bold mb-6 tracking-tight">{companyInfo.banner.title}</h1>
-          <p className="text-lg md:text-xl max-w-3xl mx-auto leading-relaxed">
-            {companyInfo.banner.subtitle}
-          </p>
-        </div>
-      </section>
+      <SubBanner {...subBannerData.about} />
 
         {/* 회사 연혁 - 이미지 왼쪽, 텍스트 오른쪽 */}
         <section className="py-20 bg-white">
