@@ -12,7 +12,7 @@ export default function Contact() {
   return (
     <>
       <SubBanner {...subBannerData.contact} />
-      <section className="py-20">
+      <section className="py-20 text-center">
         준비중
       </section>
     </>

@@ -12,7 +12,7 @@ export default function News() {
   return (
     <>
       <SubBanner {...subBannerData.news} />
-      <section className="py-20">
+      <section className="py-20 text-center">
         준비중
       </section>
     </>
