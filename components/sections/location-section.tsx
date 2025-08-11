@@ -2,7 +2,7 @@
 
 import { Card, CardContent } from "@/components/ui/card"
 import { MapPin, Navigation } from "lucide-react"
-import { locationData } from "@/data/location-data"
+import { locationData } from "@/data/main/location-data"
 import { brandColors } from "@/styles/colors"
 
 export default function LocationSection() {

@@ -1,6 +1,6 @@
 import Link from "next/link"
 import { MessageCircle, Instagram } from "lucide-react"
-import { footerData } from "@/data/footer-data"
+import { footerData } from "@/data/common/footer-data"
 
 export default function Footer() {
   const { company, customerService, copyright } = footerData

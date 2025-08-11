@@ -4,7 +4,7 @@ import { useState, useEffect, useRef } from "react"
 import Link from "next/link"
 import { Button } from "@/components/ui/button"
 import { Card, CardContent } from "@/components/ui/card"
-import { aboutData } from "@/data/about-data"
+import { aboutData } from "@/data/main/about-data"
 import { brandColors } from "@/styles/colors"
 
 export default function AboutSection() {

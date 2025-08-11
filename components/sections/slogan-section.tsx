@@ -3,7 +3,7 @@
 import { useState } from "react"
 import Image from "next/image"
 import { motion, AnimatePresence } from "framer-motion"
-import { sloganData } from "@/data/slogan-data"
+import { sloganData } from "@/data/main/slogan-data"
 import { brandColors } from "@/styles/colors"
 
 export default function SloganSection() {

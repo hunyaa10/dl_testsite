@@ -3,7 +3,7 @@
 import { useState, useEffect } from "react"
 import Image from "next/image"
 import { motion, AnimatePresence } from "framer-motion"
-import { heroData } from "@/data/hero-data"
+import { heroData } from "@/data/main/hero-data"
 
 export default function HeroSection() {
   const { slides } = heroData

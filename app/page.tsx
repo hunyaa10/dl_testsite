@@ -1,8 +1,6 @@
 "use client"
 
 import { useEffect } from "react"
-import Header from "@/components/layout/header"
-import Footer from "@/components/layout/footer"
 import HeroSection from "@/components/sections/hero-section"
 import AboutSection from "@/components/sections/about-section"
 import SloganSection from "@/components/sections/slogan-section"
@@ -18,16 +16,12 @@ export default function HomePage() {
   
   return (
     <div className="min-h-screen">
-      <Header />
-      <main>
         <HeroSection />
         <AboutSection />
         <SloganSection />
         <NewsSection />
         <ContactSection />
         <LocationSection />
-      </main>
-      <Footer />
     </div>
   )
 }

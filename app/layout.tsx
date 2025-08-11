@@ -1,11 +1,13 @@
 import type { Metadata } from 'next'
 import { GeistSans } from 'geist/font/sans'
 import { GeistMono } from 'geist/font/mono'
+import Header from '@/components/layout/header'
+import Footer from '@/components/layout/footer'
 import './globals.css'
 
 export const metadata: Metadata = {
-  title: 'RedCola',
-  description: '레드콜라',
+  title: 'TestSite',
+  description: 'TestSite',
   generator: 'v0.dev',
 }
 
@@ -15,7 +17,7 @@ export default function RootLayout({
   children: React.ReactNode
 }>) {
   return (
-    <html lang="en">
+    <html lang="ko">
       <head>
         <style>{`
 html {
@@ -25,7 +27,13 @@ html {
 }
         `}</style>
       </head>
-      <body>{children}</body>
+      <body>
+        <Header />
+        <main className="min-h-screen">
+          {children}
+        </main>
+        <Footer />
+      </body>
     </html>
   )
 }
