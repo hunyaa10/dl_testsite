@@ -1,10 +1,4 @@
 export const contactData = {
-  section: {
-    title: "판매 문의",
-    description:
-      "제품 판매에 관심이 있으시다면 언제든지 연락해 주세요.\n전담 영업팀이 최적의 솔루션을 제공해드리겠습니다.",
-  },
-
   contactInfo: [
     {
       icon: "Phone",

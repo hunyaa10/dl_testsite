@@ -14,9 +14,9 @@ export default function HomePage() {
   return (
     <div className="min-h-screen">
         <HeroSection />
-        {/* <AboutSection />
-        <SloganSection />
-        <LocationSection /> */}
+        <AboutSection />
+        {/* <SloganSection /> */}
+        {/* <LocationSection /> */}
     </div>
   )
 }
