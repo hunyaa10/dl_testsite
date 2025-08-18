@@ -34,7 +34,7 @@ export default function Footer() {
             {/* 왼쪽 영역 - 회사 정보 */}
             <div>
               <div className="mb-6">
-                <span className="text-xl font-bold text-black-600 tracking-wide">REDCOLA</span>
+                <span className="text-xl font-bold text-black-600 tracking-wide">LOGO</span>
               </div>
 
               {/* 약관 링크들 */}

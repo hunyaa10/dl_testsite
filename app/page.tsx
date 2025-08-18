@@ -14,9 +14,12 @@ export default function HomePage() {
   return (
     <div className="min-h-screen">
         <HeroSection />
-        {/* <AboutSection />
-        <SloganSection />
-        <LocationSection /> */}
+        {/* <div className="w-full h-[500px] bg-white flex justify-center items-center">
+          메인섹션위치예정
+        </div> */}
+        <AboutSection />
+        {/* <SloganSection /> */}
+        {/* <LocationSection /> */}
     </div>
   )
 }
