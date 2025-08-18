@@ -1,13 +1,14 @@
 export const aboutData = {
-  sectionTitle: "회사소개",
-  title: "The RED-Cola Company",
-  subtitle: "레드콜라는 전 세계 200여 개국에서 사랑받는 음료 브랜드입니다.",
+  sectionTitle: "쇼핑몰 소개",
+  title: "The 00 Mall",
+  subtitle: "00은 전 세계 고객과 소통하는 라이프스타일 쇼핑 플랫폼입니다.",
   description:
-    "우리는 지속가능한 미래를 위해 환경보호와 사회공헌에 앞장서고 있습니다. 1886년부터 시작된 우리의 여정은 전 세계 사람들에게 행복과 상쾌함을 전달하는 것입니다.",
-  buttonText: "회사소개 더보기",
+    "우리는 고객의 더 나은 일상을 위해 다양한 상품과 혁신적인 쇼핑 경험을 제공합니다. 단순한 쇼핑을 넘어, 가치 있는 소비와 함께하는 라이프스타일을 제안합니다.",
+  buttonText: "쇼핑몰 소개 더보기",
   stats: [
-    { number: "200+", label: "서비스 국가" },
-    { number: "1.9B", label: "일일 소비량" },
-    { number: "135", label: "창립 연수" },
+    { number: "100+", label: "입점 브랜드" },
+    { number: "1.9M", label: "월간 이용자 수" },
+    { number: "35+", label: "운영 연수" },
   ],
 }
+

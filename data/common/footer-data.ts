@@ -1,15 +1,15 @@
 export const footerData = {
   company: {
-    name: "The Red-Cola Company",
+    name: "The Test Company",
     links: ["서비스이용약관", "개인정보처리방침", "사업자정보확인"],
     info: {
-      representative: "레드콜라",
+      representative: "테스트",
       tel: "02-1234-1234",
       fax: "02-1111-2222",
-      email: "info@red-cola.co.kr",
+      email: "info@test.co.kr",
       businessNumber: "110-81-00079",
       salesNumber: "제 2025-서울강남-0001",
-      address: "서울특별시 강남구 테헤란로 152",
+      address: "서울특별시 강남구 테스트로 123",
     },
   },
 
@@ -34,5 +34,5 @@ export const footerData = {
     ],
   },
 
-  copyright: "Copyright © The Red-Cola Company. All rights reserved.",
+  copyright: "Copyright © The Test Company. All rights reserved.",
 }

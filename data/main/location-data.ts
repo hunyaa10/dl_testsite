@@ -1,8 +1,4 @@
 export const locationData = {
-  section: {
-    title: "본사 위치",
-  },
-
   locationInfo: [
     {
       icon: "MapPin",
