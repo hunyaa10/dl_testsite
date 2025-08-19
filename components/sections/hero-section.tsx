@@ -32,7 +32,7 @@ export default function HeroSection() {
           transition={{ duration: 1.0, ease: "easeInOut" }}
         >
           <Image
-            src={currentSlide.backgroundImage || "/placeholder.svg"}
+            src={currentSlide.backgroundImage}
             alt="Hero Background"
             fill
             className="object-cover"
