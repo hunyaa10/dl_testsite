@@ -15,8 +15,8 @@ export default function SloganSection() {
   }
 
   return (
-    <section id="slogan" className="py-20 bg-gray-100">
-      <div className="container mx-auto px-4">
+    <section id="slogan" className="py-20 bg-white w-full px-4 sm:px-6 md:px-8 lg:px-16 xl:px-48">
+      <div>
         {/* 데스크톱 레이아웃 */}
         <div className="hidden lg:grid lg:grid-cols-2 gap-6">
           {/* 왼쪽 큰 카드 */}

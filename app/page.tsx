@@ -5,6 +5,7 @@ import HeroSection from "@/components/sections/hero-section"
 import AboutSection from "@/components/sections/about-section"
 import SloganSection from "@/components/sections/slogan-section"
 import LocationSection from "@/components/sections/location-section"
+import FeaturedProductsSection from "@/components/sections/items-section"
 
 export default function HomePage() {
   useEffect(() => {
@@ -18,8 +19,9 @@ export default function HomePage() {
           메인섹션위치예정
         </div> */}
         <AboutSection />
-        {/* <SloganSection /> */}
+        <SloganSection />
         {/* <LocationSection /> */}
+        <FeaturedProductsSection />
     </div>
   )
 }

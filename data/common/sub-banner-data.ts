@@ -11,12 +11,17 @@ export const subBannerData = {
   },
   news: {
     title: "최신 소식",
-    subtitle: "레드콜라의 새로운 소식과 이벤트를 만나보세요",
+    subtitle: "00의 새로운 소식과 이벤트를 만나보세요",
     backgroundImage: "/assets/sub/sub_banner.jpg"
   },
   faq: {
     title: "자주 묻는 질문",
-    subtitle: "레드콜라 가맹과 관련된 궁금하신 사항을 확인하세요",
+    subtitle: "00 쇼핑몰과 관련된 궁금하신 사항을 확인하세요",
+    backgroundImage: "/assets/sub/sub_banner.jpg"
+  },
+  items: {
+    title: "상품",
+    subtitle: "00 쇼핑몰의 상품을 확인하세요",
     backgroundImage: "/assets/sub/sub_banner.jpg"
   }
 } 
