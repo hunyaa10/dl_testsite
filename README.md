@@ -1,6 +1,6 @@
-# REDCOLA 웹사이트
+# 웹사이트
 
-레드콜라 브랜드 소개 웹사이트입니다.
+브랜드 소개 웹사이트입니다.
 
 ## 시작하기
 
@@ -15,8 +15,7 @@
 
 1. 저장소 클론
 ```bash
-git clone https://github.com/hunyaa10/redcola.git
-cd redcola/red-app
+git clone https://github.com/hunyaa10/dl_testsite.git
 ```
 
 2. 의존성 설치
@@ -43,5 +42,4 @@ yarn dev
 - Framer Motion
 
 ## 배포
-- vercel 자동배포 연결
-https://redcola.vercel.app/
+- vercel 무료자동배포 연결
