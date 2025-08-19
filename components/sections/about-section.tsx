@@ -93,12 +93,12 @@ export default function AboutSection() {
         </div>
 
         <div className="text-center">
-          {/* <Link href="/about"> */}
+          <Link href="/about">
             {/* 브랜드 버튼 컴포넌트 사용 */}
             <BrandButton size="lg" className="px-8 py-4">
               {aboutData.buttonText}
             </BrandButton>
-          {/* </Link> */}
+          </Link>
         </div>
       </div>
     </section>

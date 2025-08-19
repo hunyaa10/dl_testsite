@@ -4,24 +4,24 @@ export const companyInfo = {
     title: "쇼핑몰 연혁",
     content:
       "작은 상점에서 시작된 00는 지금의 글로벌 쇼핑 플랫폼으로 성장했습니다. 고객 중심의 서비스와 끊임없는 혁신을 통해 35년이 넘는 시간 동안 전 세계 고객들에게 사랑받아 왔습니다. 지금도 우리는 변화하는 트렌드에 맞춰 다양한 상품과 서비스를 제공하고 있습니다.",
-    image: "/assets/images/placeholder.webp",
+    image: "/assets/company-intro/intro_1.jpg",
   },
   vision: {
     title: "비전 & 미션",
     content:
       "모든 사람들에게 더 나은 쇼핑 경험을 제공하고, 지속가능한 소비 문화를 만들어가는 것이 우리의 미션입니다. 일상의 모든 순간을 특별하게 만들어주는 상품과 서비스를 통해 고객 만족을 실현하고자 합니다. 사회적 책임을 다하며 고객과 함께 성장하는 쇼핑 플랫폼이 되겠습니다.",
-    image: "/assets/images/placeholder.webp",
+    image: "/assets/company-intro/intro_2.jpg",
   },
   values: {
     title: "핵심 가치",
     content:
       "고객 만족, 신뢰, 혁신은 00 쇼핑몰의 핵심 가치입니다. 우리는 항상 고객의 입장에서 생각하며, 높은 품질의 상품과 빠르고 정확한 서비스를 제공합니다. 전 직원이 하나 되어 고객에게 최상의 쇼핑 경험을 전달하기 위해 노력하고 있습니다.",
-    image: "/assets/images/placeholder.webp",
+    image: "/assets/company-intro/intro_3.jpg",
   },
   business: {
     title: "사업 영역",
     content:
       "패션, 뷰티, 가전, 식품 등 다양한 카테고리의 상품을 제공하며, 국내외 브랜드와 협력하여 차별화된 제품을 선보이고 있습니다. 00 쇼핑몰은 고객의 다양한 니즈를 충족시키는 폭넓은 상품군과 편리한 쇼핑 환경을 갖추고 있으며, 지속적인 서비스 개선과 기술 혁신을 통해 더 나은 쇼핑 플랫폼으로 도약하고 있습니다.",
-    image: "/assets/images/placeholder.webp",
+    image: "/assets/company-intro/intro_4.jpg",
   },
 }
