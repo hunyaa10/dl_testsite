@@ -2,6 +2,26 @@
 @tailwind components;
 @tailwind utilities;
 
+/* Swiper 슬라이드 페이지네이션 스타일 */
+.swiper-pagination-bullet {
+  width: 12px !important;
+  height: 12px !important;
+  background-color: #333333 !important;
+}
+
+.swiper-pagination-bullet-active {
+  background-color: #ef4444 !important;
+  opacity: 1 !important;
+  width: 32px !important;
+  border-radius: 6px !important;
+}
+
+.swiper-button-prev:after,
+.swiper-button-next:after {
+  display: none !important; 
+}
+
+
 @layer utilities {
   .text-balance {
     text-wrap: balance;

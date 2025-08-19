@@ -2,7 +2,7 @@ import Link from "next/link"
 import Image from "next/image"
 import { Card, CardContent } from "@/components/ui/card"
 import { Calendar, ExternalLink } from "lucide-react"
-import { newsData } from "@/data/news-data"
+import { newsData } from "@/data/news/news-data"
 
 export default function NewsSection() {
   return (

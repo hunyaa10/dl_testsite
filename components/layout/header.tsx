@@ -8,6 +8,7 @@ import MenuButton from "@/components/ui/menu-button"
 // 메뉴 데이터
 const menuItems = [
   { id: "about", label: "회사소개", path: "/about" },
+  { id: "items", label: "상품소개", path: "/items" },
   { id: "contact", label: "가맹점문의", path: "/contact" },
   { id: "news", label: "최신소식", path: "/news" },
   { id: "faq", label: "FAQ", path: "/faq" },
