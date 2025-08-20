@@ -84,11 +84,11 @@ const FeaturedProductsSection: React.FC = () => {
           </p>
         </div>
 
-        <div className='text-center text-gray-500'>상품섹션 준비중</div>
+        {/* <div className='text-center text-gray-500'>상품섹션 준비중</div> */}
 
         {/* Swiper 슬라이드 */}
         <div className="relative">
-          {/* <div className="swiper product-swiper overflow-hidden">
+          <div className="swiper product-swiper overflow-hidden">
             <div className="swiper-wrapper">
               {products.map((product) => (
                 <div key={product.id} className="swiper-slide">
@@ -113,20 +113,20 @@ const FeaturedProductsSection: React.FC = () => {
                 </div>
               ))}
             </div>
-          </div> */}
+          </div>
 
           {/* 화살표 버튼 */}
-          {/* <button className="swiper-button-prev absolute left-4 top-1/2 -translate-y-1/2 z-10 p-3 rounded-full bg-white shadow-lg hover:bg-red-50 hover:text-red-600 transition-all duration-300 after:content-none">
+          <button className="swiper-button-prev absolute left-4 top-1/2 -translate-y-1/2 z-10 p-3 rounded-full bg-white shadow-lg hover:bg-red-50 hover:text-red-600 transition-all duration-300 after:content-none">
             <ChevronLeft className="w-6 h-6" />
           </button>
           <button className="swiper-button-next absolute right-4 top-1/2 -translate-y-1/2 z-10 p-3 rounded-full bg-white shadow-lg hover:bg-red-50 hover:text-red-600 transition-all duration-300 after:content-none">
             <ChevronRight className="w-6 h-6" />
-          </button> */}
+          </button>
 
           {/* 인디케이터 */}
-          {/* <div className="mt-12 flex justify-center gap-2">
+          <div className="mt-12 flex justify-center gap-2">
             <div className="swiper-pagination" />
-          </div> */}
+          </div>
         </div>
 
         {/* 더보기 버튼 */}
