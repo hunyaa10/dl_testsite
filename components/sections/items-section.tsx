@@ -6,6 +6,7 @@ import { ChevronLeft, ChevronRight } from 'lucide-react';
 import BrandButton from "@/components/ui/brand-button"
 import { itemsData } from "@/data/main/items-data"
 import Link from "next/link"
+import { brandColors } from "@/styles/colors"
 
 interface Product {
   id: number;
@@ -116,10 +117,10 @@ const FeaturedProductsSection: React.FC = () => {
           </div>
 
           {/* 화살표 버튼 */}
-          <button className="swiper-button-prev absolute left-4 top-1/2 -translate-y-1/2 z-10 p-3 rounded-full bg-white shadow-lg hover:bg-red-50 hover:text-red-600 transition-all duration-300 after:content-none">
+          <button className={`swiper-button-prev absolute left-4 top-1/2 -translate-y-1/2 z-10 p-3 rounded-full bg-white shadow-lg hover:bg-red-50 hover:${brandColors.primary[600]} transition-all duration-300 after:content-none ${brandColors.primary[600]}`}>
             <ChevronLeft className="w-6 h-6" />
           </button>
-          <button className="swiper-button-next absolute right-4 top-1/2 -translate-y-1/2 z-10 p-3 rounded-full bg-white shadow-lg hover:bg-red-50 hover:text-red-600 transition-all duration-300 after:content-none">
+          <button className={`swiper-button-next absolute right-4 top-1/2 -translate-y-1/2 z-10 p-3 rounded-full bg-white shadow-lg hover:bg-red-50 hover:${brandColors.primary[600]} transition-all duration-300 after:content-none ${brandColors.primary[600]}`}>
             <ChevronRight className="w-6 h-6" />
           </button>
 
