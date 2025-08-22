@@ -48,13 +48,13 @@ export default function Items() {
     <>
       <SubBanner {...subBannerData.items} />
 
-      <section className="py-20 text-center">
+      {/* <section className="py-20 text-center">
         준비중
-      </section>
+      </section> */}
 
       <div className="py-8 px-4 bg-white">
         {/* 탭메뉴 */}
-        {/* <div className="flex justify-center mb-16 border-b border-gray-200">
+        <div className="flex justify-center mb-16 border-b border-gray-200">
           <div className="flex space-x-16">
             {tabs.map((tab) => (
               <button
@@ -73,10 +73,10 @@ export default function Items() {
               </button>
             ))}
           </div>
-        </div> */}
+        </div>
         <div className="max-w-7xl mx-auto mb-16">
           {/* 상품그리드 */}
-          {/* <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
             {currentItems.length > 0 ? (
               currentItems.map((product) => (
                 <div key={product.id} className="group cursor-pointer">
@@ -109,7 +109,7 @@ export default function Items() {
                 <h1>준비중입니다.</h1>
               </div>
             )}
-          </div> */}
+          </div>
         </div>
       </div>
     </>

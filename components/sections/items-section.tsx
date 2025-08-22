@@ -131,13 +131,13 @@ const FeaturedProductsSection: React.FC = () => {
         </div>
 
         {/* 더보기 버튼 */}
-        {/* <div className="text-center mt-4">
+        <div className="text-center mt-4">
           <Link href="/items">
             <BrandButton size="lg" className="px-8 py-4">
               더 많은 상품 보러가기
             </BrandButton>
           </Link>
-        </div> */}
+        </div>
       </div>
     </section>
   );
