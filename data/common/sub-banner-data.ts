@@ -5,7 +5,7 @@ export const subBannerData = {
     backgroundImage: "/assets/sub/sub_banner.jpg"
   },
   contact: {
-    title: "가맹점 문의",
+    title: "상품 문의",
     subtitle: "여행대로와 함께 새로운 비즈니스의 시작을 준비하세요",
     backgroundImage: "/assets/sub/sub_banner.jpg"
   },
