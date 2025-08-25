@@ -4,7 +4,7 @@ export const sloganData = {
       id: 1,
       title: "슬로건1",
       subtitle: "당신의 일상에 특별함을 더하다",
-      description: "00 쇼핑몰이 제안하는 새로운 라이프스타일",
+      description: "여행대로 쇼핑몰이 제안하는 새로운 라이프스타일",
       backgroundImage: "/assets/slogan/slogan_1.jpg",
       size: "large",
     },

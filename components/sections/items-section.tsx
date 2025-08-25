@@ -81,7 +81,7 @@ const FeaturedProductsSection: React.FC = () => {
             대표 상품
           </h2>
           <p className="text-lg text-gray-600 max-w-3xl mx-auto leading-relaxed mb-4">
-            00 쇼핑몰의 인기 상품들을 만나보세요.
+            여행대로 쇼핑몰의 인기 상품들을 만나보세요.
           </p>
         </div>
 
