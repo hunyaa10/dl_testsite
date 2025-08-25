@@ -9,7 +9,7 @@ export const contactData = {
     {
       icon: "Mail",
       title: "판매 문의 이메일",
-      content: "sales@coca-cola.co.kr",
+      content: "sales@traveldaero.co.kr",
       description: "빠른 견적 및 상담 가능",
     },
   ],

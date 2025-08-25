@@ -1,15 +1,15 @@
 export const footerData = {
   company: {
-    name: "The Test Company",
+    name: "여행대로",
     links: ["서비스이용약관", "개인정보처리방침", "사업자정보확인"],
     info: {
-      representative: "테스트",
+      representative: "여행대로",
       tel: "02-1234-1234",
       fax: "02-1111-2222",
-      email: "info@test.co.kr",
+      email: "info@traveldaero.co.kr",
       businessNumber: "110-81-00079",
       salesNumber: "제 2025-서울강남-0001",
-      address: "서울특별시 강남구 테스트로 123",
+      address: "서울특별시 강남구 신사동 123",
     },
   },
 
@@ -34,5 +34,5 @@ export const footerData = {
     ],
   },
 
-  copyright: "Copyright © The Test Company. All rights reserved.",
+  copyright: "Copyright © Traveldaero. All rights reserved.",
 }

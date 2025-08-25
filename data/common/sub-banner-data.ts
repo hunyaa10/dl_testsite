@@ -6,22 +6,22 @@ export const subBannerData = {
   },
   contact: {
     title: "가맹점 문의",
-    subtitle: "00와 함께 새로운 비즈니스의 시작을 준비하세요",
+    subtitle: "여행대로와 함께 새로운 비즈니스의 시작을 준비하세요",
     backgroundImage: "/assets/sub/sub_banner.jpg"
   },
   news: {
     title: "최신 소식",
-    subtitle: "00의 새로운 소식과 이벤트를 만나보세요",
+    subtitle: "여행대로의 새로운 소식과 이벤트를 만나보세요",
     backgroundImage: "/assets/sub/sub_banner.jpg"
   },
   faq: {
     title: "자주 묻는 질문",
-    subtitle: "00 쇼핑몰과 관련된 궁금하신 사항을 확인하세요",
+    subtitle: "여행대로와 관련된 궁금하신 사항을 확인하세요",
     backgroundImage: "/assets/sub/sub_banner.jpg"
   },
   items: {
     title: "상품",
-    subtitle: "00 쇼핑몰의 상품을 확인하세요",
+    subtitle: "여행대로의 상품을 확인하세요",
     backgroundImage: "/assets/sub/sub_banner.jpg"
   }
 } 

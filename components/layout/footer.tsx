@@ -19,13 +19,13 @@ export default function Footer() {
   return (
     <footer className="bg-white text-gray-900 border-t border-gray-200">
       {/* 포트폴리오 안내 문구 */}
-      <div className="bg-gray-100 py-4 border-b border-gray-200">
+      {/* <div className="bg-gray-100 py-4 border-b border-gray-200">
         <div className="w-full px-4 sm:px-6 md:px-8 lg:px-12 xl:px-16">
           <p className="text-center text-sm text-gray-600">
             ※ 이 사이트는 포트폴리오 용도로 제작된 가상의 예시입니다. 실제 제품, 브랜드, 회사와는 무관합니다.
           </p>
         </div>
-      </div>
+      </div> */}
 
       {/* 기존 푸터 내용 */}
       <div className="py-12">
@@ -34,7 +34,7 @@ export default function Footer() {
             {/* 왼쪽 영역 - 회사 정보 */}
             <div>
               <div className="mb-6">
-                <span className="text-xl font-bold text-black-600 tracking-wide">LOGO</span>
+                <span className="text-xl font-bold text-black-600 tracking-wide">여행대로</span>
               </div>
 
               {/* 약관 링크들 */}

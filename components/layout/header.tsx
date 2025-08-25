@@ -37,7 +37,7 @@ export default function Header() {
         <div className="flex items-center justify-between h-16">
           <Link href="/" className="flex items-center space-x-2">
             <span className={`text-2xl font-bold tracking-wide transition-colors`}>
-              LOGO
+              여행대로
             </span>
           </Link>
 
