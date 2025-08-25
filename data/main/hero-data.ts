@@ -18,7 +18,7 @@ export const heroData = {
       id: 3,
       title: "Share the Joy",
       subtitle: "함께하는 즐거움",
-      description: "00 쇼핑몰에서 발견한 좋은 상품을 소중한 사람과 함께 나누세요. 쇼핑의 기쁨이 두 배가 됩니다.",
+      description: "여행대로에서 발견한 좋은 상품을 소중한 사람과 함께 나누세요. 쇼핑의 기쁨이 두 배가 됩니다.",
       backgroundImage: "/assets/banner/banner_3.jpg",
     },
   ],

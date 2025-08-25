@@ -6,8 +6,8 @@ import Footer from '@/components/layout/footer'
 import './globals.css'
 
 export const metadata: Metadata = {
-  title: 'TestSite',
-  description: 'TestSite',
+  title: 'traveldaero',
+  description: '여행대로',
   generator: 'v0.dev',
 }
 
