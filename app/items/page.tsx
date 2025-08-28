@@ -19,8 +19,8 @@ export default function Items() {
 
   const tabs = [
     { id: 'electronics', name: '전자제품' },
-    { id: 'fashion', name: '패션' },
-    { id: 'home', name: '가구/홈' }
+    { id: 'fashion', name: '의류/패션' },
+    { id: 'home', name: '생활용품' }
   ];
 
   // 탭 상태가 변경될 때마다 렌더링할 상품 목록 업데이트
