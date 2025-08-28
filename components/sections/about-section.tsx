@@ -5,7 +5,7 @@ import Link from "next/link"
 import { Card, CardContent } from "@/components/ui/card"
 import { aboutData } from "@/data/main/about-data"
 import { brandColors } from "@/styles/colors"
-import BrandButton from "@/components/ui/brand-button"
+import BrandButton from "@/components/common/brand-button"
 
 export default function AboutSection() {
   const [isVisible, setIsVisible] = useState(false)

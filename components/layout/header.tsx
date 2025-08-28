@@ -2,8 +2,8 @@
 
 import { useState, useEffect } from "react"
 import Link from "next/link"
-import { Menu, X } from "lucide-react"
-import MenuButton from "@/components/ui/menu-button"
+import { Menu, X, UserCog } from "lucide-react"
+import MenuButton from "@/components/common/menu-button"
 
 // 메뉴 데이터
 const menuItems = [
@@ -12,6 +12,7 @@ const menuItems = [
   { id: "contact", label: "상품문의", path: "/contact" },
   { id: "news", label: "최신소식", path: "/news" },
   { id: "faq", label: "FAQ", path: "/faq" },
+  { id: "admin", path: "/admin", icon: <UserCog className="inline-block w-5 h-5 ml-1" /> },
 ]
 
 export default function Header() {
@@ -44,8 +45,14 @@ export default function Header() {
           {/* 데스크톱 네비게이션 */}
           <nav className="hidden md:flex items-center h-full">
             {menuItems.map((item) => (
-              <Link key={item.id} href={item.path}>
+              <Link 
+                key={item.id} 
+                href={item.path}
+                target={item.id === "admin" ? "_blank" : undefined}
+                rel={item.id === "admin" ? "noopener noreferrer" : undefined}
+              >
                 <MenuButton>
+                  {item.icon}
                   {item.label}
                 </MenuButton>
               </Link>
@@ -66,16 +73,18 @@ export default function Header() {
         {isMobileMenuOpen && (
           <div className="md:hidden absolute top-16 left-0 right-0 bg-white shadow-lg border-t border-gray-200">
             <nav className="flex flex-col py-2">
-              {menuItems.map((item) => (
-                <Link
-                  key={item.id}
-                  href={item.path}
-                  className={`px-4 py-3 text-left text-gray-800 hover:text-red-600 transition-colors`}
-                  onClick={() => setIsMobileMenuOpen(false)}
-                >
-                  {item.label}
-                </Link>
-              ))}
+              {menuItems
+                .filter(item => item.id !== "admin")
+                .map((item) => (
+                  <Link
+                    key={item.id}
+                    href={item.path}
+                    className={`px-4 py-3 text-left text-gray-800 hover:text-red-600 transition-colors`}
+                    onClick={() => setIsMobileMenuOpen(false)}
+                  >
+                    {item.label}
+                  </Link>
+                ))}
             </nav>
           </div>
         )}

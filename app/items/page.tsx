@@ -1,7 +1,7 @@
 "use client"
 
 import { useEffect, useState } from "react"
-import SubBanner from "@/components/ui/sub-banner"
+import SubBanner from "@/components/common/sub-banner"
 import { subBannerData } from "@/data/common/sub-banner-data"
 import { productsData } from "@/data/products/products-data"
 import { brandColors } from "@/styles/colors"

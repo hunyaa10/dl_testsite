@@ -3,7 +3,7 @@
 import React from 'react';
 import '@/styles/globals.css'
 import { ChevronLeft, ChevronRight } from 'lucide-react';
-import BrandButton from "@/components/ui/brand-button"
+import BrandButton from "@/components/common/brand-button"
 import { itemsData } from "@/data/main/items-data"
 import Link from "next/link"
 import { brandColors } from "@/styles/colors"

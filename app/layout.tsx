@@ -1,8 +1,7 @@
 import type { Metadata } from 'next'
 import { GeistSans } from 'geist/font/sans'
 import { GeistMono } from 'geist/font/mono'
-import Header from '@/components/layout/header'
-import Footer from '@/components/layout/footer'
+import Template from '@/components/layout/template'
 import './globals.css'
 
 export const metadata: Metadata = {
@@ -28,11 +27,7 @@ html {
         `}</style>
       </head>
       <body>
-        <Header />
-        <main className="min-h-screen">
-          {children}
-        </main>
-        <Footer />
+        <Template>{children}</Template>
       </body>
     </html>
   )
