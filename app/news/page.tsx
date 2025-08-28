@@ -1,7 +1,7 @@
 "use client"
 
 import { useEffect } from "react"
-import SubBanner from "@/components/ui/sub-banner"
+import SubBanner from "@/components/common/sub-banner"
 import { subBannerData } from "@/data/common/sub-banner-data"
 
 export default function News() {

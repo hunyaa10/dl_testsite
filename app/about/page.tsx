@@ -2,7 +2,7 @@
 
 import { useEffect } from "react"
 import Image from "next/image"
-import SubBanner from "@/components/ui/sub-banner"
+import SubBanner from "@/components/common/sub-banner"
 import { companyInfo } from "@/data/about/company-info"
 import { subBannerData } from "@/data/common/sub-banner-data"
 
